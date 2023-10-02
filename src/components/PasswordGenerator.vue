@@ -13,15 +13,15 @@
               {{ generatedPassword }}
             </div>
             <div v-if="generatedPassword" class="password-strength">
-              <p class="has-text-centered">LIVELLO SICUREZZA:</p>
+              <p class="has-text-centered"><strong>LIVELLO SICUREZZA:</strong></p>
               <progress class="progress" :class="passwordStrengthColor" :value="passwordStrengthPercentage" max="100"></progress>
-              <p class="has-text-centered">{{ passwordStrengthCategory }}</p>
+              <p class="has-text-centered is-size-5"><strong>{{ passwordStrengthCategory }}</strong></p>
             </div>
             <button class="button is-primary is-fullwidth mt-4" @click="generatePassword">
               <span class="icon">
                 <i class="fas fa-redo"></i>
               </span>
-              <span>Rigenera</span>
+              <span><strong>RIGENERA</strong></span>
             </button>
           </div>
         </div>
