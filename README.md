@@ -1,14 +1,11 @@
 # Password Generator App
+## Project Description
+This project is an open-source password generator application built using Vue.js and Bulma CSS framework. It allows users to generate strong and secure passwords with ease. 
 
-![Password Generator App]([your-image-url-here](https://i.imgur.com/z1ZRFyT.png))
+![Password Generator App](https://i.imgur.com/z1ZRFyT.png)
 
 ## Project Setup
 To set up this project, run the following command to install dependencies:
-
-# password-generator-app
-
-## Project setup
-
 
 ```
 npm install
@@ -38,9 +35,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Project Description
-This project is an open-source password generator application built using Vue.js and Bulma CSS framework. It allows users to generate strong and secure passwords with ease. 
-
+## License
 **License:** MIT License
 
 **Author:** Please make sure to credit the author when using or sharing this project.
