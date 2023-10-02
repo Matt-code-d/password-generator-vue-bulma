@@ -1,6 +1,8 @@
 {
   "name": "password-generator-app",
+  "description": "This project is an open-source password generator application built using Vue.js and Bulma CSS framework. It allows users to generate strong and secure passwords with ease.",
   "version": "0.1.0",
+  "author": "Matteo Santoro Dev <matteosantoro.dev>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
